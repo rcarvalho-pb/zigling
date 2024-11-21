@@ -35,7 +35,7 @@ fn twoToThe(number: u16) u16 {
     var n: u16 = 0;
     var total: u16 = 1;
 
-    while (n < number) : (n += 2) {
+    while (n < number) : (n += 1) {
         total *= 2;
     }
 
